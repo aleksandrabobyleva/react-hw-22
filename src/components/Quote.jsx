@@ -1,6 +1,7 @@
+
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchRandomQuote } from "../quoteSlice";
+import { fetchRandomQuote } from "../features/quote/quoteSlice"; 
 import styles from "./Quote.module.css";
 
 const Quote = () => {
